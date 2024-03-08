@@ -123,14 +123,14 @@ function BoxAnimation() {
   });
 
   return (
-    <div className="w-full h-full items-center justify-center z-10  hidden md:flex  ">
+    <div className="w-full h-full items-center justify-center z-10  hidden md:flex   ">
       <div
         ref={container}
-        className="  c opacity-1  flex flex-col w-1/2  h-96 border-2 border-slate-800 rounded-md  gap-2 p-4 scale-125 shadow-[4px_4px_0_0_rgba(30,41,59,1)]"
+        className="outline-1  c opacity-1 bg-slate-100 flex flex-col w-1/2  h-96 border-2 border-slate-500 rounded-md  gap-2 p-4 scale-125 shadow-[3px_3px_0_0_#64748b]"
       >
         <div className="flex flex-col gap-2 h-full">
           <div className=" flex justify-between items-center step-1 relative">
-            <div className="logo">Project X</div>
+            <div className="logo">Website</div>
             <div className="w-8 h-8 bg-slate-300 rounded-full"></div>
           </div>
           <div className="flex flex-col gap-2 step-2 relative">
