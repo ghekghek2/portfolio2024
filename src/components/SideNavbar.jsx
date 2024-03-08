@@ -3,8 +3,8 @@ import { CiInstagram } from "react-icons/ci";
 import { PiGithubLogoLight } from "react-icons/pi";
 function SideNavbar() {
   return (
-    <div className="border border-slate-300 h-screen  w-10 md:w-32 top-0 left-0 bottom-0">
-      <div className="  w-full h-full flex flex-col justify-between py-16">
+    <div className="border border-slate-300 bg-slate-200 h-screen sticky   w-12 md:w-28 top-0 left-0 bottom-0">
+      <div className="  w-full h-full flex flex-col justify-between py-4 md:py-16">
         <div></div>
         <div className="flex w-full justify-center flex-col items-center">
           <CiFacebook className="w-9 h-9 rounded-full p-1 hover:bg-slate-300 cursor-pointer" />
