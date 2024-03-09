@@ -23,7 +23,7 @@ function Skill() {
   return (
     <Context.Provider value={[text, setText]}>
       <div className="p-4 gap-4 w-full  ">
-        <div className="flex   items-center text-3xl font-semibold mb-2   ">
+        <div className="flex  items-center text-3xl font-semibold mb-2   ">
           Tech Stack
         </div>
         <div className="flex flex-wrap gap-2 md:gap-1 text-2xl md:text-5xl ">
@@ -43,11 +43,6 @@ function Skill() {
 
           <IconSkill icon={DiJqueryLogo} title="Jquery" />
           <IconSkill icon={SiStyledcomponents} title="Styled Components" />
-
-          {/* <div className=" row-span-3 col-span-6 flex items-center justify-center border   border-slate-500  text-slate-800 text-5xl font-semibold ">
-          <img src="/gsap.png" alt="" />
-        </div> */}
-          {/* <IconSkill img="/gsap.png" title="Gsap" /> */}
         </div>
         <div className="col-span-12 md:col-span-6">
           <div className="  font-semibold ">{text}</div>
