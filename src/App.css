@@ -9,14 +9,17 @@
   body {
     overflow-y: hidden;
     overflow: auto;
+    margin: 0;
+    padding: 0;
   }
   body::before {
     z-index: -1;
     content: ""; /* Add this line to make the pseudo-element appear */
     display: block; /* Add this line to make the pseudo-element a block-level element */
     width: 100%; /* Corrected width value */
-    height: 100vh; /* Add this line to cover the entire body */
-    position: absolute;
+    height: 100vh;
+
+    position: fixed;
     background-color: #f1f5f9;
     opacity: 0.06;
     background-image: linear-gradient(

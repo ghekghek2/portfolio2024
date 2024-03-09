@@ -69,8 +69,11 @@ function About() {
               <p>Udemy Certificates</p>
             </div>
             <b>
-              <p>The Ultimate React Course 2024: React</p>
-              <p>Web and Mobile Designer UI/UX (Figma)</p>
+              <p>The Ultimate React Course 2024: React and Supabase</p>
+              <p>
+                Web and Mobile Designer UI/UX : Html Css Tailwind Figma
+                Responsive Design{" "}
+              </p>
             </b>
           </div>
         </div>

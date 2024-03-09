@@ -1,7 +1,8 @@
-function Button({ children, className, icon }) {
+function Button({ children, className, icon, type }) {
   return (
     <button
-      className={` flex items-center gap-2 text-slate-50 px-4 py-2 text-2xl tracking-widest rounded-md ${className}`}
+      type={type}
+      className={` flex items-center gap-2 font-semibold  text-slate-50 px-4 py-2  tracking-widest rounded-md ${className}`}
     >
       {children} <span>{icon}</span>
     </button>

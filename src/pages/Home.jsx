@@ -7,7 +7,7 @@ function Home() {
     <div className="p-4 gap-4 h-full md:max-h-[990px]  flex  justify-between w-full   ">
       <div className="  flex justify-center items-center  md:basis-2/5 ">
         <div className="">
-          <h1 className="text-3xl font-semibold text-slate-800">
+          <h1 className="text-3xl font-semibold text-slate-700">
             Kevin Divinagracia
           </h1>
           <div className="text-xl text-slate-800 flex items-center h-10 gap-2 ">
@@ -15,7 +15,7 @@ function Home() {
               <img src="/line.png" alt="" />
             </div>
 
-            <div className="morphing ">
+            <div className="morphing  ">
               <p className="word text-3xl">Front-End Developer</p>
               <p className="word text-3xl">Computer Technician</p>
               <p className="word text-3xl">Ui Designer</p>
@@ -29,13 +29,15 @@ function Home() {
             I’m creative user interface and user experience Developer based in
             Philippines, and very passionate building web application.
           </p>
-          <Button className="mt-4 bg-teal-600 font-semibold" icon={<BsSend />}>
+          <Button className="mt-4 bg-slate-800 text-lg" icon={<BsSend />}>
             Hire me
           </Button>
         </div>
       </div>
-
-      <BoxAnimation />
+      <div className="w-full relative mt-20 hidden md:block">
+        <div className="w-full  border-t border-slate-500"></div>
+        <BoxAnimation />
+      </div>
     </div>
   );
 }

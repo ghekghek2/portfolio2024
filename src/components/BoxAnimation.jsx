@@ -35,7 +35,7 @@ function BoxAnimation() {
         scale: 1,
         ease: "power1.out",
         opacity: 0,
-        width: "0",
+        x: 200,
         stagger: 0.5,
         duration: 0.4,
       })
@@ -45,7 +45,7 @@ function BoxAnimation() {
         scale: 1,
         ease: "power1.out",
         opacity: 0,
-        width: "0",
+        x: -200,
         stagger: 0.5,
         duration: 0.4,
       })
@@ -54,7 +54,7 @@ function BoxAnimation() {
         scale: 1,
         ease: "power1.out",
         opacity: 0,
-        width: "0",
+        x: 200,
         stagger: 0.5,
         duration: 0.4,
       })
@@ -64,7 +64,7 @@ function BoxAnimation() {
         scale: 1,
         ease: "power1.out",
         opacity: 0,
-        width: "0",
+        x: 200,
         stagger: 0.5,
         duration: 0.4,
       })
@@ -73,7 +73,7 @@ function BoxAnimation() {
         scale: 1,
         ease: "power1.out",
         opacity: 0,
-        width: "0",
+        x: -200,
         stagger: 0.5,
         duration: 0.5,
       })
@@ -158,17 +158,17 @@ function BoxAnimation() {
             <div className="skelefromn  h-4 bg-slate-300"></div>
           </div>
           <div className="flex gap-2 items-center x ">
-            <div className="flex flex-col gap-2 step-3">
-              <div className="skelefromn w-20 h-4 bg-slate-300"></div>
-              <div className="skelefromn w-20 h-4 bg-slate-300"></div>
-              <div className="skelefromn w-20 h-4 bg-slate-300"></div>
+            <div className="flex flex-col gap-2 step-3 basis-1/4 ">
+              <div className="skelefromn  h-4 bg-slate-300"></div>
+              <div className="skelefromn h-4 bg-slate-300"></div>
+              <div className="skelefromn h-4 bg-slate-300"></div>
             </div>
-            <div className="flex flex-col gap-2 step-4 ">
-              <div className="skelefromn w-20 h-4 bg-slate-300"></div>
-              <div className="skelefromn w-20 h-4 bg-slate-300"></div>
-              <div className="skelefromn w-20 h-4 bg-slate-300"></div>
+            <div className="flex flex-col gap-2 step-4 basis-1/4 ">
+              <div className="skelefromn  h-4 bg-slate-300"></div>
+              <div className="skelefromn  h-4 bg-slate-300"></div>
+              <div className="skelefromn  h-4 bg-slate-300"></div>
             </div>
-            <div className="w-full h-full bg-slate-300"></div>
+            <div className="w-full basis-full h-full bg-slate-300"></div>
           </div>
 
           <div className="flex gap-2 items-center  w-full y">
