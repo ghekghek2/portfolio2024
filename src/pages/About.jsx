@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="p-4 w-full">
+    <div className="pl-2 md:p-4 w-full">
       <div className="flex flex-col  justify-between gap-4">
         <div className="w-full md:w-3/5">
           <h1 className="text-3xl font-semibold ">Who i am</h1>

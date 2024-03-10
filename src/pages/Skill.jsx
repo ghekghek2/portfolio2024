@@ -22,7 +22,7 @@ function Skill() {
 
   return (
     <Context.Provider value={[text, setText]}>
-      <div className="p-4 gap-4 w-full  ">
+      <div className="pl-2 md:p-4 gap-4 w-full  ">
         <div className="flex  items-center text-3xl font-semibold mb-2   ">
           Tech Stack
         </div>
