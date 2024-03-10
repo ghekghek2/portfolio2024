@@ -21,7 +21,7 @@
 
     position: fixed;
     background-color: #f1f5f9;
-    opacity: 0.06;
+    opacity: 1;
     background-image: linear-gradient(
         #64748b 0.7000000000000001px,
         transparent 0.7000000000000001px
@@ -32,6 +32,24 @@
         #f1f5f9 0.7000000000000001px
       );
     background-size: 14px 14px;
+    transition: opacity 0.8s ease; /* Transition the opacity property */
+  }
+
+  body::before {
+    opacity: 0.06;
+  }
+
+  html.dark body::before {
+    background-color: #020617;
+    opacity: 0; /* Initial opacity set to 0 */
+    background-image: linear-gradient(#0b1931 1px, transparent 1px),
+      linear-gradient(to right, #0b1931 1px, #020617 1px);
+    background-size: 14px 14px;
+    transition: opacity 0.5s ease; /* Transition the opacity property */
+  }
+
+  html.dark body::before {
+    opacity: 1; /* Set opacity to 1 */
   }
   body::-webkit-scrollbar {
     width: 0px;
@@ -51,5 +69,5 @@
   }
 }
 body {
-  @apply bg-slate-100 text-slate-600;
+  @apply bg-slate-100 text-slate-600 transition-colors duration-1000 ease-in-out;
 }
