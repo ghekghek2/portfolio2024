@@ -4,7 +4,7 @@ import { BsSend } from "react-icons/bs";
 
 function Home() {
   return (
-    <div className="p-4 gap-4 h-full md:max-h-[990px]  flex  justify-between w-full   ">
+    <div className="pl-2 md:p-4 gap-4 h-full md:max-h-[990px]  flex  justify-between w-full   ">
       <div className="  flex justify-center items-center  md:basis-2/5 ">
         <div className="">
           <h1 className="text-3xl font-semibold text-slate-700">
