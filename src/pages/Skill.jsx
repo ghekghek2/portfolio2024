@@ -45,7 +45,7 @@ function Skill() {
           <IconSkill icon={SiStyledcomponents} title="Styled Components" />
         </div>
         <div className="col-span-12 md:col-span-6">
-          <div className="  font-semibold ">{text}</div>
+          <div className="  font-semibold dark:text-cyan-500">{text}</div>
         </div>
       </div>
     </Context.Provider>

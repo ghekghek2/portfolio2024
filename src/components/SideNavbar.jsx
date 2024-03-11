@@ -19,9 +19,9 @@ function SideNavbar() {
            
           </div> */}
           <div className="flex w-full justify-center flex-col  items-center  ">
-            <CiFacebook className="w-9 h-9 rounded-full p-1 hover:bg-slate-300 cursor-pointer" />
-            <CiInstagram className="w-9 h-9 rounded-full p-1 hover:bg-slate-300 cursor-pointer" />
-            <PiGithubLogoLight className="w-9 h-9 rounded-full p-1 hover:bg-slate-300 cursor-pointer" />
+            <CiFacebook className="w-9 h-9 rounded-full p-1 hover:bg-slate-300 dark:hover:bg-transparent dark:hover:text-cyan-500 cursor-pointer" />
+            <CiInstagram className="w-9 h-9 rounded-full p-1 hover:bg-slate-300 dark:hover:bg-transparent dark:hover:text-cyan-500 cursor-pointer" />
+            <PiGithubLogoLight className="w-9 h-9 rounded-full p-1 hover:bg-slate-300 dark:hover:bg-transparent dark:hover:text-cyan-500 cursor-pointer" />
           </div>
         </div>
 

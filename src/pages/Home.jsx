@@ -10,16 +10,20 @@ function Home() {
           <h1 className="text-3xl font-semibold text-slate-700">
             Kevin Divinagracia
           </h1>
-          <div className="text-xl text-slate-800 flex items-center h-10 gap-2 ">
+          <div className="text-xl text-slate-800  flex items-center h-10 gap-2 ">
             <div>
               <img src="/line.png" alt="" />
             </div>
 
             <div className="morphing  ">
-              <p className="word text-3xl">Front-End Developer</p>
-              <p className="word text-3xl">Computer Technician</p>
-              <p className="word text-3xl">Ui Designer</p>
-              <p className="word text-3xl">Ux Designer</p>
+              <p className="word text-3xl dark:text-cyan-500">
+                Front-End Developer
+              </p>
+              <p className="word text-3xl dark:text-cyan-500">
+                Computer Technician
+              </p>
+              <p className="word text-3xl dark:text-cyan-500">Ui Designer</p>
+              <p className="word text-3xl dark:text-cyan-500">Ux Designer</p>
               {/* <p className="word text-3xl">CSS</p>
               <p className="word text-3xl">is</p>
               <p className="word text-3xl">great!</p> */}
@@ -29,13 +33,16 @@ function Home() {
             I’m creative user interface and user experience Developer based in
             Philippines, and very passionate building web application.
           </p>
-          <Button className="mt-4 bg-slate-800 text-lg" icon={<BsSend />}>
+          <Button
+            className="mt-4 bg-slate-700 dark:bg-slate-900 border-b border-transparent dark:border-b dark:border-cyan-500  text-lg"
+            icon={<BsSend />}
+          >
             Hire me
           </Button>
         </div>
       </div>
       <div className="w-full relative mt-20 hidden md:block">
-        <div className="w-full  border-t border-slate-500"></div>
+        <div className="w-full  border-t border-slate-500 dark:border-slate-700"></div>
         <BoxAnimation />
       </div>
     </div>
