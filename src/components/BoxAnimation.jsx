@@ -105,7 +105,7 @@ function BoxAnimation() {
         opacity: 0,
         x: "150px",
         y: "-100px",
-        ease: "power1.inOut",
+        ease: "power1.out",
       })
       // .to(" .c ", {
       //   y: "-20px",
@@ -114,7 +114,7 @@ function BoxAnimation() {
       //   ease: "power1.out",
       // })
       .from(".box4", {
-        duration: 2,
+        duration: 1,
         opacity: 0,
         x: "-100px",
         y: "100px",
@@ -126,12 +126,12 @@ function BoxAnimation() {
     <div className="w-full h-full items-center justify-center z-10  hidden md:flex   ">
       <div
         ref={container}
-        className="outline-1  c opacity-1 bg-slate-100 flex flex-col w-1/2  h-96 border-2 border-slate-500 rounded-md  gap-2 p-4 scale-125 shadow-[3px_3px_0_0_#64748b]"
+        className="outline-1  c opacity-1 bg-slate-100  dark:backdrop-blur-[1px] dark:bg-transparent  flex flex-col w-1/2  h-96 border-2 border-slate-500 dark:border-slate-700 rounded-md  gap-2 p-4 scale-125 shadow-[3px_3px_0_0_#64748b] dark:shadow-[3px_3px_0_0_#334155] "
       >
         <div className="flex flex-col gap-2 h-full">
           <div className=" flex justify-between items-center step-1 relative">
             <div className="logo">Website</div>
-            <div className="w-8 h-8 bg-slate-300 rounded-full"></div>
+            <div className="w-8 h-8 bg-slate-200 dark:bg-slate-800 rounded-full"></div>
           </div>
           <div className="flex flex-col gap-2 step-2 relative">
             <CallOuts
@@ -153,30 +153,30 @@ function BoxAnimation() {
             >
               Lorem ipsum dolor sit amet consectetur.
             </CallOuts>
-            <div className="skelefromn  h-4 bg-slate-300"></div>
-            <div className="skelefromn  h-4 bg-slate-300 "></div>
-            <div className="skelefromn  h-4 bg-slate-300"></div>
+            <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800"></div>
+            <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800 "></div>
+            <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800"></div>
           </div>
           <div className="flex gap-2 items-center x ">
             <div className="flex flex-col gap-2 step-3 basis-1/4 ">
-              <div className="skelefromn  h-4 bg-slate-300"></div>
-              <div className="skelefromn h-4 bg-slate-300"></div>
-              <div className="skelefromn h-4 bg-slate-300"></div>
+              <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800"></div>
+              <div className="skelefromn h-4 bg-slate-200 dark:bg-slate-800"></div>
+              <div className="skelefromn h-4 bg-slate-200 dark:bg-slate-800"></div>
             </div>
             <div className="flex flex-col gap-2 step-4 basis-1/4 ">
-              <div className="skelefromn  h-4 bg-slate-300"></div>
-              <div className="skelefromn  h-4 bg-slate-300"></div>
-              <div className="skelefromn  h-4 bg-slate-300"></div>
+              <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800"></div>
+              <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800"></div>
+              <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800"></div>
             </div>
-            <div className="w-full basis-full h-full bg-slate-300"></div>
+            <div className="w-full basis-full h-full bg-slate-200 dark:bg-slate-800"></div>
           </div>
 
           <div className="flex gap-2 items-center  w-full y">
-            <div className="w-full h-full bg-slate-300  step-5"></div>
+            <div className="w-full h-full bg-slate-200 dark:bg-slate-800  step-5"></div>
             <div className="flex flex-col gap-2 step-6 ">
-              <div className="skelefromn w-[4.8rem] h-4 bg-slate-300"></div>
-              <div className="skelefromn w-[4.8rem]  h-4 bg-slate-300"></div>
-              <div className="skelefromn w-[4.8rem]  h-4 bg-slate-300"></div>
+              <div className="skelefromn w-[4.8rem] h-4 bg-slate-200 dark:bg-slate-800"></div>
+              <div className="skelefromn w-[4.8rem]  h-4 bg-slate-200 dark:bg-slate-800"></div>
+              <div className="skelefromn w-[4.8rem]  h-4 bg-slate-200 dark:bg-slate-800"></div>
             </div>
           </div>
 
@@ -187,13 +187,13 @@ function BoxAnimation() {
             >
               Lorem ipsum dolor sit amet consectetur.
             </CallOuts>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300"></div>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300"></div>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300"></div>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300"></div>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300"></div>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300"></div>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
           </div>
         </div>
 

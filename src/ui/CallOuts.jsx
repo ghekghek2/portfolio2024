@@ -1,7 +1,7 @@
 function CallOuts({ children, className, border }) {
   return (
     <div
-      className={`   absolute  text-slate-700 bg-slate-50 flex justify-center items-center px-2 rounded-md ${className} `}
+      className={`   absolute  text-slate-700 bg-slate-50 dark:bg-slate-800 dark:text-slate-300 flex justify-center items-center px-2 rounded-md ${className} `}
     >
       {children}s
       <div
