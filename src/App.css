@@ -55,6 +55,12 @@
     width: 0px;
     background: transparent;
   }
+
+  .drkbtn {
+    box-shadow: -1px -1px 2px 0px rgba(30, 41, 59, 0.6) inset;
+    /* -webkit-box-shadow: -2px -2px 2px 0px rgba(30, 41, 59, 0.5) inset;
+    -moz-box-shadow: -2px -2px 2px 0px rgba(30, 41, 59, 0.5) inset; */
+  }
 }
 
 @layer utilities {

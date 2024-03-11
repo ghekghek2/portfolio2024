@@ -8,8 +8,10 @@ function SideNavbar() {
   return (
     <div className=" dark:backdrop-blur-[1px] dark:bg-transparent dark:border-slate-800 transition-all duration-300 z-50 border border-slate-300 bg-slate-200 max-h-screen  sticky  md:w-[140px] top-0 left-0 bottom-0 ">
       <div className="h-full   md:w-full flex flex-col justify-between w-10 ">
-        <div className="flex justify-center items-center p-4">
-          <DarkBtn />
+        <div className="flex justify-center items-center pt-4">
+          <div className="drkbtn  p-1 rounded-full">
+            <DarkBtn />
+          </div>
         </div>
         <div className="flex flex-col items-center justify-center ">
           {/* <div className="  w-fit h-fit  ">
