@@ -1,7 +1,7 @@
 import BoxAnimation from "../components/BoxAnimation";
 import Button from "../ui/Button";
 import { BsSend } from "react-icons/bs";
-import "./App.scss";
+import "./App.css";
 function Home() {
   return (
     <div className=" gap-4 h-full md:max-h-[990px]  flex  justify-between w-full md:pb-10   ">

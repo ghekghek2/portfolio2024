@@ -1,6 +1,5 @@
 import Pagelayout from "./ui/Pagelayout";
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
-
 import AppLayout from "./ui/AppLayout";
 import Contact from "./pages/Contact";
 import Project from "./pages/Project";
