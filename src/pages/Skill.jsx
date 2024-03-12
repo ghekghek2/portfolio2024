@@ -22,7 +22,7 @@ function Skill() {
 
   return (
     <Context.Provider value={[text, setText]}>
-      <div className="pl-2 md:p-4 gap-4 w-full  ">
+      <div className=" gap-4 w-full  ">
         <div className="flex  items-center text-3xl font-semibold mb-2   ">
           Tech Stack
         </div>
@@ -45,7 +45,7 @@ function Skill() {
           <IconSkill icon={SiStyledcomponents} title="Styled Components" />
         </div>
         <div className="col-span-12 md:col-span-6">
-          <div className="  font-semibold dark:text-cyan-500">{text}</div>
+          <div className="  font-semibold dark:text-cyan-500 mt-4">{text}</div>
         </div>
       </div>
     </Context.Provider>

@@ -4,9 +4,9 @@ import { BsSend } from "react-icons/bs";
 
 function Home() {
   return (
-    <div className="pl-2 md:p-4 gap-4 h-full md:max-h-[990px]  flex  justify-between w-full   ">
+    <div className=" gap-4 h-full md:max-h-[990px]  flex  justify-between w-full md:pb-10   ">
       <div className="  flex justify-center items-center  md:basis-2/5 ">
-        <div className="">
+        <div className="py-4">
           <h1 className="text-3xl font-semibold text-slate-700">
             Kevin Divinagracia
           </h1>
@@ -16,14 +16,18 @@ function Home() {
             </div>
 
             <div className="morphing  ">
-              <p className="word text-3xl dark:text-cyan-500">
+              <p className="word text-sm md:text-3xl dark:text-cyan-500">
                 Front-End Developer
               </p>
-              <p className="word text-3xl dark:text-cyan-500">
+              <p className="word text-sm md:text-3xl dark:text-cyan-500">
                 Computer Technician
               </p>
-              <p className="word text-3xl dark:text-cyan-500">Ui Designer</p>
-              <p className="word text-3xl dark:text-cyan-500">Ux Designer</p>
+              <p className="word text-sm md:text-3xl dark:text-cyan-500">
+                Ui Designer
+              </p>
+              <p className="word text-sm md:text-3xl dark:text-cyan-500">
+                Ux Designer
+              </p>
               {/* <p className="word text-3xl">CSS</p>
               <p className="word text-3xl">is</p>
               <p className="word text-3xl">great!</p> */}

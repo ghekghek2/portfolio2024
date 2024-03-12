@@ -4,11 +4,11 @@ import Skill from "../pages/Skill";
 
 function AppLayout() {
   return (
-    <>
+    <div className="gap-4 flex flex-col">
       <Home />
       <Skill />
       <About />
-    </>
+    </div>
   );
 }
 

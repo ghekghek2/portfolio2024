@@ -18,7 +18,7 @@ function DarkBtn() {
       <BiMoon />
       <div
         className={` w-4 h-4 md:w-5 md:h-5 bg-slate-50 dark:bg-slate-900  rounded-full absolute  transition-all duration-500 ${
-          !dark ? "translate-y-7" : "translate-y-0"
+          !dark ? "translate-y-6 md:translate-y-7 " : "translate-y-0"
         }`}
       ></div>
     </button>

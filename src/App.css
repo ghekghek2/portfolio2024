@@ -73,6 +73,23 @@
   html.dark .drkbtn {
     box-shadow: -1px -1px 2px 0px rgba(6, 182, 212, 0.6) inset;
   }
+  .map-container {
+    perspective: 108px;
+  }
+
+  .map {
+    transform: rotateX(2deg) rotateY(0deg);
+    transform-style: preserve-3d;
+  }
+
+  html.dark .map svg g path {
+    fill: #0f172a;
+    stroke: #06b6d4;
+    stroke-width: 0.3px;
+  }
+  .active {
+    color: red;
+  }
 }
 
 @layer utilities {

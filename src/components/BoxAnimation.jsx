@@ -131,52 +131,52 @@ function BoxAnimation() {
         <div className="flex flex-col gap-2 h-full">
           <div className=" flex justify-between items-center step-1 relative">
             <div className="logo">Website</div>
-            <div className="w-8 h-8 bg-slate-200 dark:bg-slate-800 rounded-full"></div>
+            <div className="w-8 h-8 bg-slate-300 dark:bg-slate-800 rounded-full"></div>
           </div>
           <div className="flex flex-col gap-2 step-2 relative">
             <CallOuts
-              className="z-50  box4 top-3  right-7 w-32 border border-yellow-700 shadow-[4px_4px_0_0_rgba(161,98,7,1)] "
+              className="z-50  box4 -top-10  right-7 w-32 border border-yellow-700 shadow-[4px_4px_0_0_rgba(161,98,7,1)] "
               border="border-yellow-700 "
             >
-              Lorem ipsum dolor sit amet
+              Handle errors gracefully
             </CallOuts>
             <CallOuts
               className=" z-50 box1 top-14  border border-teal-700 shadow-[4px_4px_0_0_rgba(15,118,110,1)] "
               border="border-teal-700"
             >
-              Lorem ipsum dolor sit amet consectetur.
+              Fetches data from the server and updates the UI accordingly
             </CallOuts>
 
             <CallOuts
               className="z-50  box3  top-24 left-5 border border-slate-700 shadow-[4px_4px_0_0_rgba(71,85,105,1)] "
               border="border-slate-700"
             >
-              Lorem ipsum dolor sit amet consectetur.
+              Display a friendly error message to the user
             </CallOuts>
-            <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800"></div>
-            <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800 "></div>
-            <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800"></div>
+            <div className="skelefromn  h-4 bg-slate-300 dark:bg-slate-800"></div>
+            <div className="skelefromn  h-4 bg-slate-300 dark:bg-slate-800 "></div>
+            <div className="skelefromn  h-4 bg-slate-300 dark:bg-slate-800"></div>
           </div>
           <div className="flex gap-2 items-center x ">
             <div className="flex flex-col gap-2 step-3 basis-1/4 ">
-              <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800"></div>
-              <div className="skelefromn h-4 bg-slate-200 dark:bg-slate-800"></div>
-              <div className="skelefromn h-4 bg-slate-200 dark:bg-slate-800"></div>
+              <div className="skelefromn  h-4 bg-slate-300 dark:bg-slate-800"></div>
+              <div className="skelefromn h-4 bg-slate-300 dark:bg-slate-800"></div>
+              <div className="skelefromn h-4 bg-slate-300 dark:bg-slate-800"></div>
             </div>
             <div className="flex flex-col gap-2 step-4 basis-1/4 ">
-              <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800"></div>
-              <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800"></div>
-              <div className="skelefromn  h-4 bg-slate-200 dark:bg-slate-800"></div>
+              <div className="skelefromn  h-4 bg-slate-300 dark:bg-slate-800"></div>
+              <div className="skelefromn  h-4 bg-slate-300 dark:bg-slate-800"></div>
+              <div className="skelefromn  h-4 bg-slate-300 dark:bg-slate-800"></div>
             </div>
-            <div className="w-full basis-full h-full bg-slate-200 dark:bg-slate-800"></div>
+            <div className="w-full basis-full h-full bg-slate-300 dark:bg-slate-800"></div>
           </div>
 
           <div className="flex gap-2 items-center  w-full y">
-            <div className="w-full h-full bg-slate-200 dark:bg-slate-800  step-5"></div>
+            <div className="w-full h-full bg-slate-300 dark:bg-slate-800  step-5"></div>
             <div className="flex flex-col gap-2 step-6 ">
-              <div className="skelefromn w-[4.8rem] h-4 bg-slate-200 dark:bg-slate-800"></div>
-              <div className="skelefromn w-[4.8rem]  h-4 bg-slate-200 dark:bg-slate-800"></div>
-              <div className="skelefromn w-[4.8rem]  h-4 bg-slate-200 dark:bg-slate-800"></div>
+              <div className="skelefromn w-[4.8rem] h-4 bg-slate-300 dark:bg-slate-800"></div>
+              <div className="skelefromn w-[4.8rem]  h-4 bg-slate-300 dark:bg-slate-800"></div>
+              <div className="skelefromn w-[4.8rem]  h-4 bg-slate-300 dark:bg-slate-800"></div>
             </div>
           </div>
 
@@ -185,15 +185,15 @@ function BoxAnimation() {
               className="z-50 box2 right-0 top-0 border border-cyan-700 shadow-[4px_4px_0_0_rgba(14,116,144,1)] "
               border="border-cyan-700"
             >
-              Lorem ipsum dolor sit amet consectetur.
+              Responsive styles for even smaller screens
             </CallOuts>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
-            <div className="skelefromn w-20 h-full rounded-sm bg-slate-200 dark:bg-slate-800"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300 dark:bg-slate-800"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300 dark:bg-slate-800"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300 dark:bg-slate-800"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300 dark:bg-slate-800"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300 dark:bg-slate-800"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300 dark:bg-slate-800"></div>
+            <div className="skelefromn w-20 h-full rounded-sm bg-slate-300 dark:bg-slate-800"></div>
           </div>
         </div>
 
