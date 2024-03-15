@@ -2,8 +2,7 @@ import Pagelayout from "./ui/Pagelayout";
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import AppLayout from "./ui/AppLayout";
 import Contact from "./pages/Contact";
-// import Project from "./pages/Project";
-import ProjectLink from "./pages/ProjectLink";
+import Project from "./pages/Project";
 import Live from "./ui/Live";
 import Design from "./ui/Design";
 import Mockup from "./ui/Mockup";
@@ -13,10 +12,10 @@ function App() {
       <Routes>
         <Route element={<Pagelayout />}>
           <Route index element={<Navigate replace to="kevinDivinagracia" />} />
-          <Route index path="kevinDivinagracia" element={<AppLayout />} />
+          <Route path="kevinDivinagracia" element={<AppLayout />} />
           <Route path="email" element={<Contact />} />
 
-          <Route path="project" element={<ProjectLink />}>
+          <Route path="project" element={<Project />}>
             <Route index element={<Navigate replace to="live" />} />
             <Route path="live" element={<Live />} />
             <Route path="design" element={<Design />} />
