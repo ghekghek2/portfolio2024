@@ -36,7 +36,7 @@ function Contact() {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="w-full  md:basis-4/12  md:p-4 flex flex-col items-start  dark:bg-transparent dark:backdrop-blur-[2px]  "
+            className="w-full  md:basis-4/12   flex flex-col items-start  dark:bg-transparent dark:backdrop-blur-[2px]  "
           >
             <h1 className="text-3xl font-semibold">Drop a line in my inbox</h1>
             <input type="text" name="from_name" hidden value="kevin" readOnly />

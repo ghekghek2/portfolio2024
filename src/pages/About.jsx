@@ -54,7 +54,7 @@ function About() {
         </div>
 
         <div className="pb-10">
-          <h1 className="text-3xl font-semibold">Education</h1>
+          <h1 className="text-3xl font-semibold ">Education</h1>
           <div>
             <div>
               <p>Bataan Peninsula State University</p>
@@ -62,7 +62,16 @@ function About() {
             <b>
               <p>Bachelor of Science Information Technology</p>
             </b>
-
+            <div>
+              <p>Udemy Certificates</p>
+            </div>
+            <b>
+              <p>The Ultimate React Course 2024: React and Supabase</p>
+              <p>
+                Web and Mobile Designer UI/UX : Html Css Tailwind Figma
+                Responsive Design{" "}
+              </p>
+            </b>
             <div>
               <p>TESDA</p>
             </div>
@@ -75,17 +84,6 @@ function About() {
             </div>
             <b>
               <p>Electrical Installation Maintenance NCII</p>
-            </b>
-
-            <div>
-              <p>Udemy Certificates</p>
-            </div>
-            <b>
-              <p>The Ultimate React Course 2024: React and Supabase</p>
-              <p>
-                Web and Mobile Designer UI/UX : Html Css Tailwind Figma
-                Responsive Design{" "}
-              </p>
             </b>
           </div>
         </div>
