@@ -55,10 +55,10 @@ function ProjectUi({ desc }) {
       ScrollTrigger.create({
         animation: tl,
         trigger: containerRef.current,
-        start: "50 20%",
+        start: "50 40%",
         end: "500 40%",
         stagger: 1,
-        markers: true,
+        // markers: true,
       });
     });
   });
@@ -81,7 +81,7 @@ function ProjectUi({ desc }) {
             <div className="flex gap-2 justify-end">
               {desc.skillTag.map((skill, index) => (
                 <p
-                  className="border-slate-300 border p-2 rounded-md md:opacity-0 tag text-sm"
+                  className="border-slate-300 border p-2 rounded-md md:opacity-0 tag text-sm dark:bg-transparent dark:border-slate-800"
                   key={index}
                   ref={(el) => (tags.current[index] = el)}
                 >
@@ -92,10 +92,10 @@ function ProjectUi({ desc }) {
           </div>
           <div></div>
         </div>
-        <div className=" w-full md:w-4/6 flex flex-col gap-2  ">
+        <div className=" w-full md:w-4/6 flex flex-col gap-2  items-center justify-center ">
           {desc.img.map((image, index) => (
             <img
-              className="h-fit"
+              className=" w-full md:w-11/12"
               key={index}
               src={image}
               alt={`img-${index}`}

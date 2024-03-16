@@ -15,7 +15,7 @@ function Live() {
         "../checkin-dark.png",
         "../booking-dark.png",
       ],
-      skillTag: ["React", "Supabase", "Styled-component"],
+      skillTag: ["React", "Supabase", "Styled-component", "css"],
     },
     {
       title: "Escreentest",
@@ -23,7 +23,7 @@ function Live() {
         "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo officia beatae culpa pariatur facere voluptatibus commodi quis earum praesentium.",
       link: "escreentest.vercel.app/home",
       img: ["../test1.png", "../test2.png", "../test3.png"],
-      skillTag: ["React", "Supabase", "Styled-component"],
+      skillTag: ["React", "Supabase", "Styled-component", "css"],
     },
   ];
 
