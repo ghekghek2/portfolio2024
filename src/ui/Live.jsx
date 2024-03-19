@@ -10,8 +10,9 @@ function Live() {
       link: "kubook.vercel.app/",
       img: [
         "../dashboard.png",
-        "../dashboard-dark.png",
         "../checkin.png",
+        "../booking.png",
+        "../dashboard-dark.png",
         "../checkin-dark.png",
         "../booking-dark.png",
       ],
@@ -22,7 +23,7 @@ function Live() {
       description:
         "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo officia beatae culpa pariatur facere voluptatibus commodi quis earum praesentium.",
       link: "escreentest.vercel.app/home",
-      img: ["../test1.png", "../test2.png", "../test3.png"],
+      img: ["../test1.png"],
       skillTag: ["React", "Supabase", "Styled-component", "css"],
     },
   ];

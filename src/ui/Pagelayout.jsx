@@ -6,7 +6,7 @@ function Pagelayout() {
   return (
     <div className="flex gap-2 md:gap-8 justify-center ">
       <SideNavbar />
-      <div className=" relative overflow-y-scroll no-scrollbar h-full  max-w-[1440px] w-full px-2 md:px-0">
+      <div className=" relative overflow-y-scroll no-scrollbar h-screen max-h-[1080px]   max-w-[1440px] w-full px-2 md:px-0">
         <Outlet />
       </div>
     </div>
