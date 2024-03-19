@@ -6,7 +6,7 @@ import Project from "./pages/Project";
 import Live from "./ui/Live";
 import Design from "./ui/Design";
 import Mockup from "./ui/Mockup";
-import Mobile from "./ui/Mobile";
+
 function App() {
   return (
     <BrowserRouter>
@@ -20,7 +20,7 @@ function App() {
             <Route index element={<Navigate replace to="live" />} />
             <Route path="live" element={<Live />} />
             <Route path="design" element={<Design />} />
-            <Route path="mobile" element={<Mobile />} />
+
             <Route path="mockup" element={<Mockup />} />
           </Route>
         </Route>
