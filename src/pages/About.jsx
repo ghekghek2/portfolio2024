@@ -27,7 +27,6 @@ function About() {
                 </b>
                 &nbsp;&nbsp;&nbsp;
                 <small>Full Time</small>&nbsp;&nbsp;&nbsp;
-                <small>Present</small>
               </div>
             </div>
             <div className="containerx right-container relative flex items-center gap-2">
