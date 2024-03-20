@@ -6,10 +6,13 @@ import Project from "./pages/Project";
 import Live from "./ui/Live";
 import Design from "./ui/Design";
 import Mockup from "./ui/Mockup";
+import ScrollToTop from "./ScrollToTop";
+import NotFound from "./ui/NotFound";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route element={<Pagelayout />}>
           <Route index element={<Navigate replace to="kevinDivinagracia" />} />
@@ -22,7 +25,9 @@ function App() {
             <Route path="design" element={<Design />} />
 
             <Route path="mockup" element={<Mockup />} />
+            <Route path="*" element={<NotFound />} />
           </Route>
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>

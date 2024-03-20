@@ -60,26 +60,26 @@ function About() {
             <h1 className="text-3xl font-semibold ">Education</h1>
             <div>
               <div className="flex items-center gap-2 ">
-                <PiCertificate className="text-4xl" />
+                <PiCertificate className="text-2xl" />
 
                 <p>Bataan Peninsula State University</p>
               </div>
-              <strong className="pl-11">
+              <strong className="md:pl-11">
                 Bachelor of Science Information Technology
               </strong>
             </div>
             <div>
               <div>
                 <div className="flex items-center gap-2 ">
-                  <PiCertificate className="text-4xl" />
+                  <PiCertificate className="text-2xl" />
 
                   <p>Udemy Certificates</p>
                 </div>
-                <strong className="pl-11">
+                <strong className="md:pl-11">
                   The Ultimate React Course 2024: React and Supabase
                 </strong>
                 <br />
-                <strong className="pl-11">
+                <strong className="md:pl-11">
                   Web and Mobile Designer UI/UX : Html Css Tailwind Figma
                   Responsive Design
                 </strong>
@@ -87,23 +87,23 @@ function About() {
             </div>
             <div>
               <div className="flex items-center gap-2 ">
-                <PiCertificate className="text-4xl" />
+                <PiCertificate className="text-2xl" />
 
                 <p>TESDA</p>
               </div>
 
-              <strong className="pl-11">
+              <strong className="md:pl-11">
                 Computer Hardware Servicing NCII
               </strong>
             </div>
             <div>
               <div className="flex items-center gap-2 ">
-                <PiCertificate className="text-4xl" />
+                <PiCertificate className="text-2xl" />
 
                 <p>TESDA</p>
               </div>
 
-              <strong className="pl-11">
+              <strong className="md:pl-11">
                 Electrical Installation Maintenance NCII
               </strong>
             </div>
