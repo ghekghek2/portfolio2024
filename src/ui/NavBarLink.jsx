@@ -10,7 +10,7 @@ function NavBarLink() {
 
         <NavLinks to="/email" label="Contact" icon={MdForwardToInbox} />
 
-        <NavLinks to="kevinDivinagracia" label="Home" icon={PiHouseLineBold} />
+        <NavLinks to="home" label="Home" icon={PiHouseLineBold} />
       </ul>
     </ul>
   );
