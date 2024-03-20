@@ -1,3 +1,5 @@
+import { PiCertificate } from "react-icons/pi";
+
 function About() {
   return (
     <div className=" w-full">
@@ -54,37 +56,57 @@ function About() {
         </div>
 
         <div className="pb-10">
-          <h1 className="text-3xl font-semibold ">Education</h1>
-          <div>
+          <div className="flex flex-col gap-4">
+            <h1 className="text-3xl font-semibold ">Education</h1>
             <div>
-              <p>Bataan Peninsula State University</p>
-            </div>
-            <b>
-              <p>Bachelor of Science Information Technology</p>
-            </b>
-            <div>
-              <p>Udemy Certificates</p>
-            </div>
-            <b>
-              <p>The Ultimate React Course 2024: React and Supabase</p>
-              <p>
-                Web and Mobile Designer UI/UX : Html Css Tailwind Figma
-                Responsive Design{" "}
-              </p>
-            </b>
-            <div>
-              <p>TESDA</p>
-            </div>
-            <b>
-              <p>Computer Hardware Servicing NCII</p>
-            </b>
+              <div className="flex items-center gap-2 ">
+                <PiCertificate className="text-4xl" />
 
-            <div>
-              <p>TESDA</p>
+                <p>Bataan Peninsula State University</p>
+              </div>
+              <strong className="pl-11">
+                Bachelor of Science Information Technology
+              </strong>
             </div>
-            <b>
-              <p>Electrical Installation Maintenance NCII</p>
-            </b>
+            <div>
+              <div>
+                <div className="flex items-center gap-2 ">
+                  <PiCertificate className="text-4xl" />
+
+                  <p>Udemy Certificates</p>
+                </div>
+                <strong className="pl-11">
+                  The Ultimate React Course 2024: React and Supabase
+                </strong>
+                <br />
+                <strong className="pl-11">
+                  Web and Mobile Designer UI/UX : Html Css Tailwind Figma
+                  Responsive Design
+                </strong>
+              </div>
+            </div>
+            <div>
+              <div className="flex items-center gap-2 ">
+                <PiCertificate className="text-4xl" />
+
+                <p>TESDA</p>
+              </div>
+
+              <strong className="pl-11">
+                Computer Hardware Servicing NCII
+              </strong>
+            </div>
+            <div>
+              <div className="flex items-center gap-2 ">
+                <PiCertificate className="text-4xl" />
+
+                <p>TESDA</p>
+              </div>
+
+              <strong className="pl-11">
+                Electrical Installation Maintenance NCII
+              </strong>
+            </div>
           </div>
         </div>
       </div>
