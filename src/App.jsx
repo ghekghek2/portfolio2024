@@ -25,6 +25,7 @@ function App() {
             <Route path="design" element={<Design />} />
 
             <Route path="mockup" element={<Mockup />} />
+
             <Route path="*" element={<NotFound />} />
           </Route>
           <Route path="*" element={<NotFound />} />
