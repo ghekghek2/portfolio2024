@@ -26,6 +26,16 @@ function Live() {
       img: ["../test1.png"],
       skillTag: ["React", "Supabase", "Styled-component", "css"],
     },
+
+    {
+      title: "Movie Collection",
+      description:
+        "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo officia beatae culpa pariatur facere voluptatibus commodi quis earum praesentium.",
+
+      link: "collectmovie.netlify.app",
+      img: ["../movie.PNG"],
+      skillTag: ["React", "omdbapi", "Tailwind"],
+    },
   ];
 
   return (
