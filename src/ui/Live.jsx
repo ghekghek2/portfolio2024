@@ -5,7 +5,7 @@ function Live() {
     {
       title: "Kubook",
       description:
-        "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo officia beatae culpa pariatur facere voluptatibus commodi quis earum praesentium.",
+        "  Kubook is a user-friendly online booking dashboard designed exclusively for front desk operations, offering a seamless scheduling experience . With its intuitive interface, managing appointments and services becomes effortless, ensuring efficient front desk management without any hassle",
 
       link: "kubook.vercel.app/",
       img: [
@@ -21,7 +21,7 @@ function Live() {
     {
       title: "Escreentest",
       description:
-        "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo officia beatae culpa pariatur facere voluptatibus commodi quis earum praesentium.",
+        "  Escreentest simplifies the hiring process by allowing employers to create online tests for applicants. Candidates can take these tests remotely, enabling employers to efficiently shortlist qualified candidates before interviews.",
       link: "escreentest.vercel.app/home",
       img: ["../test1.png"],
       skillTag: ["React", "Supabase", "Styled-component", "css"],
@@ -30,7 +30,7 @@ function Live() {
     {
       title: "Movie Collection",
       description:
-        "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo officia beatae culpa pariatur facere voluptatibus commodi quis earum praesentium.",
+        " Explore, organize, and rate films effortlessly with Movie Collection watch list app. Discover new favorites and keep track of your cinematic journey, all in one intuitive platform",
 
       link: "collectmovie.netlify.app",
       img: ["../movie.PNG"],

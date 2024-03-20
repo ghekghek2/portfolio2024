@@ -1,30 +1,29 @@
 import { useState } from "react";
 
-function Readmore({
-  collapsedNumWords = 25,
-  expandButtonText = "Read More",
-  collapseButtonText = "Read Less",
+function Readmore({ collapsedNumWords = 25, className = "", children }) {
+  const [isExpanded, setIsExpanded] = useState(false);
 
-  expanded = false,
-  className = "",
-  children,
-}) {
-  const [isExpanded, setIsExpanded] = useState(expanded);
-
-  function handleExpand() {
+  function handleToggle() {
     setIsExpanded((is) => !is);
   }
+
+  const words = children.split(" ");
+  const content = isExpanded ? words : words.slice(0, collapsedNumWords);
+
   return (
-    <div className={className}>
-      {isExpanded
-        ? children
-        : children
-            .split(" ")
-            .slice(0, collapsedNumWords + 1)
-            .join(" ") + "..."}
-      <span className="text-slate-500 cursor-pointer" onClick={handleExpand}>
-        {isExpanded ? collapseButtonText : expandButtonText}
-      </span>
+    <div
+      className={`${className} transition-max-height duration-300 overflow-hidden relative `}
+      style={{ maxHeight: isExpanded ? "1000px" : "100px" }}
+    >
+      {content.join(" ")}
+      {words.length > collapsedNumWords && (
+        <span
+          className="text-slate-500 cursor-pointer ml-2 underline transition-opacity duration-300"
+          onClick={handleToggle}
+        >
+          {isExpanded ? "Read Less" : "Read More"}
+        </span>
+      )}
     </div>
   );
 }

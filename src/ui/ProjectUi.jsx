@@ -2,7 +2,7 @@ import Readmore from "./Readmore";
 
 function ProjectUi({ desc }) {
   return (
-    <div className="mb-4 md:mb-8 border-b border-r   shadow-md ">
+    <div className="mb-4 md:mb-8   ">
       <div className="flex justify-between md:flex-row flex-col   gap-4 md:gap-12">
         <div className="md:w-1/3 flex  flex-col  justify-center ">
           <div className="font-bold text-3xl mt-0 ">{desc.title}</div>
