@@ -2,6 +2,8 @@ import BoxAnimation from "../components/BoxAnimation";
 import Button from "../ui/Button";
 import { BsSend } from "react-icons/bs";
 import "./App.css";
+import { NavLink } from "react-router-dom";
+
 function Home() {
   return (
     <div className=" gap-4 h-full md:max-h-[990px]  flex  justify-between w-full md:pb-10   ">
@@ -37,12 +39,14 @@ function Home() {
             I’m creative user interface and user experience Developer based in
             Philippines, and very passionate building web application.
           </p>
-          <Button
-            className="mt-4 bg-slate-700 dark:bg-slate-900 border-b border-transparent dark:border-b dark:border-cyan-500  text-lg"
-            icon={<BsSend />}
-          >
-            Hire me
-          </Button>
+          <NavLink to="/email">
+            <Button
+              className="mt-4 bg-slate-700 hover:bg-slate-800 dark:bg-slate-900 dark:hover:bg-slate-800 border-b border-transparent dark:border-b dark:border-cyan-500  text-lg"
+              icon={<BsSend />}
+            >
+              Hire me
+            </Button>
+          </NavLink>
         </div>
       </div>
       <div className="w-full relative mt-20 hidden md:block">
