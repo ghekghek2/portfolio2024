@@ -75,7 +75,7 @@ function About() {
                   <p>Udemy Certificates</p>
                 </div>
                 <strong className="md:pl-11">
-                  The Ultimate React Course 2024: React and Supabase
+                  The Ultimate React Course : React and Supabase
                 </strong>
                 <br />
                 <strong className="md:pl-11">
