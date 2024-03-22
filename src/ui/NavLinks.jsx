@@ -5,7 +5,7 @@ function NavLinks({ to, label, icon: Icon }) {
     <NavLink to={to}>
       {({ isActive }) => (
         <li
-          className={`flex items-center justify-center md:justify-between  md:p-2 bg-slate-700 hover:bg-slate-600 dark:hover:bg-cyan-950 dark:bg-slate-900 border-b border-slate-500 dark:border-cyan-500 cursor-pointer ${
+          className={`flex items-center justify-center md:justify-between  md:p-2 bg-slate-800 hover:bg-slate-600 dark:hover:bg-cyan-950 dark:bg-slate-900 border-b border-slate-500 dark:border-cyan-500 cursor-pointer ${
             isActive
               ? "text-slate-50 dark:text-cyan-500"
               : " text-slate-300 dark:text-slate-500"
