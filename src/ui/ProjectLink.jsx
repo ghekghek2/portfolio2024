@@ -6,10 +6,10 @@ function ProjectLink({ children, to }) {
       <NavLink to={to}>
         {({ isActive }) => (
           <div
-            className={` ${
+            className={`  ${
               isActive
-                ? "font-semibold  border-b border-slate-800 dark:border-cyan-500 dark:text-cyan-500"
-                : " text-slate-500 dark:text-slate-500 font-medium"
+                ? "font-semibold  border-b border-slate-50 dark:border-cyan-500 dark:text-cyan-500 "
+                : "  dark:text-slate-500 font-medium text-slate-300"
             }
            `}
           >

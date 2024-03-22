@@ -1,0 +1,30 @@
+.outlet {
+  &:active,
+  &:hover {
+    overflow-y: auto;
+  }
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    height: 6px;
+
+    visibility: hidden;
+  }
+  &::-webkit-scrollbar-track {
+    visibility: hidden;
+  }
+  &:active::-webkit-scrollbar-thumb,
+  &:hover::-webkit-scrollbar-thumb,
+  &:focus::-webkit-scrollbar-thumb {
+    visibility: visible;
+    background: #334155;
+  }
+}
+
+background: #334155;
+.active {
+  color: #f8fafc;
+}

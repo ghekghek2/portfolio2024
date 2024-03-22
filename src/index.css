@@ -1,4 +1,5 @@
 @tailwind base;
+
 @tailwind components;
 @tailwind utilities;
 
@@ -87,9 +88,7 @@
     stroke: #06b6d4;
     stroke-width: 0.3px;
   }
-  .active {
-    color: red;
-  }
+
   .parent {
     max-width: 1440px;
     width: 100%;
@@ -100,16 +99,6 @@
   }
 }
 
-@layer utilities {
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
-
-  .no-scrollbar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-}
 body {
   @apply text-slate-600 dark:text-slate-500 transition-colors duration-1000 ease-in-out tracking-wider;
 }

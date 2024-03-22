@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 function Home() {
   return (
     <div className=" gap-4 h-full md:max-h-[990px]  flex  justify-between w-full md:pb-10   ">
-      <div className="  flex justify-center items-center  md:basis-2/5 ">
+      <div className="  flex justify-center items-center    min-[1440px]:basis-2/5 ">
         <div className="py-4">
           <h1 className="text-3xl font-semibold text-slate-700">
             Kevin Divinagracia
@@ -18,16 +18,16 @@ function Home() {
             </div>
 
             <div className="morphing  ">
-              <p className="word text-sm md:text-3xl dark:text-cyan-500">
+              <p className="word text-[24px] md:text-3xl dark:text-cyan-500">
                 Front-End Developer
               </p>
-              <p className="word text-sm md:text-3xl dark:text-cyan-500">
+              <p className="word text-[24px] md:text-3xl dark:text-cyan-500">
                 Computer Technician
               </p>
-              <p className="word text-sm md:text-3xl dark:text-cyan-500">
+              <p className="word text-[24px] md:text-3xl dark:text-cyan-500">
                 Ui Designer
               </p>
-              <p className="word text-sm md:text-3xl dark:text-cyan-500">
+              <p className="word text-[24px] md:text-3xl dark:text-cyan-500">
                 Ux Designer
               </p>
               {/* <p className="word text-3xl">CSS</p>
@@ -49,7 +49,7 @@ function Home() {
           </NavLink>
         </div>
       </div>
-      <div className="w-full relative mt-20 hidden md:block">
+      <div className="w-full relative mt-20 hidden min-[1440px]:block">
         <div className="w-full  border-t border-slate-500 dark:border-slate-700"></div>
         <BoxAnimation />
       </div>

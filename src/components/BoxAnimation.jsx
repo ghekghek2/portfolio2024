@@ -123,7 +123,7 @@ function BoxAnimation() {
   });
 
   return (
-    <div className="w-full h-full items-center justify-center z-10  hidden md:flex   ">
+    <div className="w-full h-full items-center justify-center z-10  hidden min-[1440px]:flex  ">
       <div
         ref={container}
         className="outline-1  c opacity-1 bg-slate-100  dark:backdrop-blur-[1px] dark:bg-transparent  flex flex-col w-1/2  h-96 border-2 border-slate-500 dark:border-slate-700 rounded-md  gap-2 p-4 scale-125 shadow-[3px_3px_0_0_#64748b] dark:shadow-[3px_3px_0_0_#334155] "
@@ -148,7 +148,7 @@ function BoxAnimation() {
             </CallOuts>
 
             <CallOuts
-              className="z-50  box3  top-24 left-5 border border-slate-700 shadow-[4px_4px_0_0_rgba(71,85,105,1)] "
+              className="z-50  box3  top-32 left-5 border border-slate-700 shadow-[4px_4px_0_0_rgba(71,85,105,1)] "
               border="border-slate-700"
             >
               Display a friendly error message to the user
