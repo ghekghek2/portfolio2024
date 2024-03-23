@@ -97,6 +97,35 @@
     width: inherit;
     max-width: inherit;
   }
+
+  .outlet:active,
+  .outlet:hover {
+    overflow-y: auto;
+  }
+
+  .outlet::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .outlet::-webkit-scrollbar-thumb {
+    height: 6px;
+    visibility: hidden;
+  }
+
+  .outlet::-webkit-scrollbar-track {
+    visibility: hidden;
+  }
+
+  .outlet:active::-webkit-scrollbar-thumb,
+  .outlet:hover::-webkit-scrollbar-thumb,
+  .outlet:focus::-webkit-scrollbar-thumb {
+    visibility: visible;
+    background: #334155;
+  }
+
+  .active {
+    color: #f8fafc;
+  }
 }
 
 body {
