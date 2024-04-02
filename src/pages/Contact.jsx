@@ -63,14 +63,14 @@ function Contact() {
   return (
     <>
       {!success ? (
-        <div className="relative w-full h-screen max-h-[1080px] flex flex-col-reverse  md:flex-row md:justify-between justify-center md:gap-0 gap-4 items-center">
+        <div className="relative w-full h-[105vh] max-h-[1080px] flex flex-col-reverse  md:flex-row md:justify-between justify-center md:gap-0 gap-4 items-center">
           <form
             ref={form}
             onSubmit={sendEmail}
             className="w-full md:basis-3/6 flex flex-col items-start dark:bg-transparent dark:backdrop-blur-[2px]"
           >
             <h1 className="text-3xl font-semibold mb-2">
-              Drop a line in my inbox
+              Drop me a line via Email
             </h1>
             <div className="grid grid-cols-2 gap-2 w-full">
               <div className="flex flex-col">
@@ -118,7 +118,7 @@ function Contact() {
           </div>
         </div>
       ) : (
-        <div>Thank you</div>
+        <ThankYou />
       )}
     </>
   );
