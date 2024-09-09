@@ -4,6 +4,8 @@ import { BsSend } from "react-icons/bs";
 import "./App.css";
 import { NavLink } from "react-router-dom";
 
+import Download from "../components/Download";
+
 function Home() {
   return (
     <div className=" gap-4 h-full md:max-h-[990px]  flex  justify-between w-full md:pb-10   ">
@@ -36,17 +38,21 @@ function Home() {
             </div>
           </div>
           <p className="">
-            I’m creative user interface and user experience Developer based in
-            Philippines, and very passionate building web application.
+            I’m a creative User Interface and User Experience Developer based in
+            the Philippines, and I’m very passionate about building web
+            applications.
           </p>
-          <NavLink to="/email">
-            <Button
-              className="mt-4 bg-slate-700 hover:bg-slate-800 dark:bg-slate-900 dark:hover:bg-slate-800 border-b border-transparent dark:border-b dark:border-cyan-500  text-lg"
-              icon={<BsSend />}
-            >
-              Hire me
-            </Button>
-          </NavLink>
+          <div className="flex gap-2">
+            <NavLink to="/email">
+              <Button
+                className="mt-4 bg-slate-700 hover:bg-slate-800 dark:bg-slate-900 dark:hover:bg-slate-800 border-b border-transparent dark:border-b dark:border-cyan-500  text-lg"
+                icon={<BsSend />}
+              >
+                Hire me
+              </Button>
+            </NavLink>
+            <Download />
+          </div>
         </div>
       </div>
       <div className="w-full relative mt-20 hidden min-[1440px]:block">

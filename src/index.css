@@ -131,3 +131,16 @@
 body {
   @apply text-slate-600 dark:text-slate-500 transition-colors duration-1000 ease-in-out tracking-wider;
 }
+
+.spline {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+/* @media (max-width: 600px) {
+  .spline {
+    top: 200px;
+  }
+} */

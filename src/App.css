@@ -1,3 +1,18 @@
 .active {
   color: #f8fafc;
 }
+/* .about-me {
+  perspective: 1500px;
+  transition: perspective 0.3s ease, transform 0.3s ease;
+}
+
+.about-me:hover {
+  perspective: 500px;
+  transform: translateZ(
+    -9.7rem
+  ); 
+
+.about-text {
+  transform: rotateX(55deg);
+  transition: transform 0.3s ease;
+} */

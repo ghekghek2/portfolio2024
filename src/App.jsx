@@ -8,6 +8,7 @@ import Design from "./ui/Design";
 import Mockup from "./ui/Mockup";
 import ScrollToTop from "./ScrollToTop";
 import NotFound from "./ui/NotFound";
+import SkillSpline from "./pages/SkillSpline";
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route element={<Pagelayout />}>
-          <Route index element={<Navigate replace to="home" />} />
-          <Route path="home" element={<AppLayout />} />
+          <Route index element={<Navigate replace to="profile" />} />
+          <Route path="profile" element={<AppLayout />} />
           <Route path="email" element={<Contact />} />
+          <Route path="skill" element={<SkillSpline />} />
 
           <Route path="project" element={<Project />}>
             <Route index element={<Navigate replace to="live" />} />

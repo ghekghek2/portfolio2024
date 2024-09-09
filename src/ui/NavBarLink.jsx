@@ -1,6 +1,7 @@
 import { LuLayoutDashboard } from "react-icons/lu";
 import { MdForwardToInbox } from "react-icons/md";
 import { PiHouseLineBold } from "react-icons/pi";
+import { IoIosCode } from "react-icons/io";
 import NavLinks from "../ui/NavLinks";
 function NavBarLink() {
   return (
@@ -9,8 +10,9 @@ function NavBarLink() {
         <NavLinks to="/project" label="Project" icon={LuLayoutDashboard} />
 
         <NavLinks to="/email" label="Contact" icon={MdForwardToInbox} />
+        <NavLinks to="/skill" label="Skill" icon={IoIosCode} />
 
-        <NavLinks to="home" label="Home" icon={PiHouseLineBold} />
+        <NavLinks to="profile" label="Profile" icon={PiHouseLineBold} />
       </ul>
     </ul>
   );
