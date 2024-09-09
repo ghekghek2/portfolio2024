@@ -17,7 +17,7 @@ function SplineUi() {
     <>
       {isLoading && (
         <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50">
-          <div className="text-white">Loading Spline...</div>
+          <div className="text-white">Loading ...</div>
         </div>
       )}
 
