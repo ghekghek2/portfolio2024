@@ -56,7 +56,7 @@ function AppLayout() {
               </div>
             </div>
           </div>
-          <div className="about-me  w-1/2 ">
+          <div className="about-me  md:w-1/2 ">
             <Header title="About" />
             <p className="  about-text  rounded-b-lg   border dark:border-slate-600 p-4">
               Kevin Divinagracia is a Front-End Developer with a background in
