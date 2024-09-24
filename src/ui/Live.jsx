@@ -3,6 +3,16 @@ import ProjectUi from "./ProjectUi";
 function Live() {
   const projects = [
     {
+      title: "ChemStash",
+      description:
+        "ChemStash is a full-stack application designed to simplify chemical inventory management and real-time task coordination for laboratories. Developed in collaboration with chemists in Taiwan, I contributed as both a UI/UX designer and full-stack developer, ensuring an intuitive interface and seamless functionality. ",
+
+      link: "mern-with-auth-rba5.onrender.com/manager/dashboard",
+      demo: "my.spline.design/untitled-ca6514341383ae3018bef86408dfaa28/",
+      img: ["../chemstash2.png", "../chemstash.png"],
+      skillTag: ["MongoDB", "Express Js", "React", "Daisy Ui", "Figma"],
+    },
+    {
       title: "Kubook",
       description:
         "  Kubook is a user-friendly online booking dashboard designed exclusively for front desk operations, offering a seamless scheduling experience . With its intuitive interface, managing appointments and services becomes effortless, ensuring efficient front desk management without any hassle",
