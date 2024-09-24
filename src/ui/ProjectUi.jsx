@@ -33,7 +33,7 @@ function ProjectUi({ desc }) {
               <div className="flex gap-2 justify-end flex-wrap">
                 {desc.skillTag.map((skill, index) => (
                   <p
-                    className="border-slate-300 border p-1 rounded-md mt-6 tag text-sm dark:bg-transparent dark:border-slate-800"
+                    className="border-slate-300 border p-1 rounded-md mt-0 md:mt-6 tag text-sm dark:bg-transparent dark:border-slate-800"
                     key={index}
                   >
                     {skill}
@@ -45,10 +45,10 @@ function ProjectUi({ desc }) {
         </div>
 
         {/* Right Side (Images Section) */}
-        <div className="flex flex-col max-w-4xl gap-2">
+        <div className="flex flex-col w-full max-w-4xl gap-2">
           {desc.img.map((image, index) => (
             <img
-              className="transition-all duration-500"
+              className="transition-all duration-500 "
               key={index}
               src={image}
               alt={`img-${index}`}

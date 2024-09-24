@@ -10,7 +10,14 @@ function Live() {
       link: "mern-with-auth-rba5.onrender.com/manager/dashboard",
       demo: "my.spline.design/untitled-ca6514341383ae3018bef86408dfaa28/",
       img: ["../chemstash2.png", "../chemstash.png"],
-      skillTag: ["MongoDB", "Express Js", "React", "Daisy Ui", "Figma"],
+      skillTag: [
+        "MongoDB",
+        "Express Js",
+        "React Js",
+        "Node Js",
+        "Daisy Ui",
+        "Figma",
+      ],
     },
     {
       title: "Kubook",
@@ -19,9 +26,6 @@ function Live() {
 
       link: "kubook.vercel.app/",
       img: [
-        "../dashboard.png",
-        "../checkin.png",
-        "../booking.png",
         "../dashboard-dark.png",
         "../checkin-dark.png",
         "../booking-dark.png",
