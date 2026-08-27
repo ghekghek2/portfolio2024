@@ -1,3 +1,4 @@
+import { lazy, Suspense } from "react";
 import Pagelayout from "./ui/Pagelayout";
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import AppLayout from "./ui/AppLayout";
@@ -8,7 +9,8 @@ import Design from "./ui/Design";
 import Mockup from "./ui/Mockup";
 import ScrollToTop from "./ScrollToTop";
 import NotFound from "./ui/NotFound";
-import SkillSpline from "./pages/SkillSpline";
+
+const SkillSpline = lazy(() => import("./pages/SkillSpline"));
 
 function App() {
   return (
@@ -19,7 +21,14 @@ function App() {
           <Route index element={<Navigate replace to="profile" />} />
           <Route path="profile" element={<AppLayout />} />
           <Route path="email" element={<Contact />} />
-          <Route path="skill" element={<SkillSpline />} />
+          <Route
+            path="skill"
+            element={
+              <Suspense fallback={<div className="flex items-center justify-center h-screen text-slate-400">Loading...</div>}>
+                <SkillSpline />
+              </Suspense>
+            }
+          />
 
           <Route path="project" element={<Project />}>
             <Route index element={<Navigate replace to="live" />} />
