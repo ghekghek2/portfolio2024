@@ -1,8 +1,9 @@
-function Button({ children, className, icon, type, onClick, classIcon }) {
+function Button({ children, className, icon, type, onClick, classIcon, disabled }) {
   return (
     <button
       onClick={onClick}
       type={type}
+      disabled={disabled}
       className={` flex items-center gap-2 font-semibold  text-slate-50 dark:text-slate-300 px-4 py-2  tracking-widest rounded-md ${className}`}
     >
       {children} <span className={classIcon}>{icon}</span>
