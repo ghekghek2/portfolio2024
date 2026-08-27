@@ -13,44 +13,58 @@ function AppLayout() {
       <div className="">
         {/* <h1 className="font-bold text-2xl"> About me</h1> */}
         <div className="flex flex-col  gap-8 mt-8">
-          <div className=" flex flex-col  font-semibold w-fit ">
+          <div className=" flex flex-col  font-semibold w-full md:w-fit ">
             <Header title="Work Experience" />
-            <div className="rounded-b-lg border dark:border-slate-600 p-4 flex flex-col gap-4 ">
-              <div className="flex items-center justify-between gap-12 ">
-                <div className="text-5xl">Front End Developer</div>
+            <div className="rounded-b-lg border dark:border-slate-600 p-6 flex flex-col divide-y divide-slate-100 dark:divide-slate-800">
+              <div className="flex md:items-center justify-between gap-12 md:flex-row flex-col w-full pb-5">
+                <div className="md:text-5xl font-semibold tracking-tight">
+                  UX Engineer
+                </div>
                 <div>
-                  <p className="text-sm text-right">
-                    Group One Jl International Inc
+                  <p className="text-sm font-medium text-slate-700 dark:text-slate-300">
+                    HQZen
                   </p>
-                  <p className="text-xs text-right">
-                    March 2023 - February 2024
+                  <p className="text-xs text-slate-400 mt-0.5">
+                    Feb 2025 — Jun 2025
                   </p>
                 </div>
               </div>
-              <div className="flex items-center justify-between">
-                <div className=" text-5xl line-through decoration-slate-300 text-slate-400">
-                  It Support
+              <div className="flex md:items-center justify-between gap-12 md:flex-row flex-col py-5">
+                <div className="md:text-5xl font-semibold tracking-tight  decoration-slate-300 text-slate-400 dark:text-slate-600">
+                  Web Developer
                 </div>
                 <div>
-                  <p className="text-sm text-right">
-                    {" "}
+                  <p className="text-sm font-medium text-slate-400 dark:text-slate-500">
+                    Central One Bataan
+                  </p>
+                  <p className="text-xs text-slate-300 dark:text-slate-600 mt-0.5">
+                    Oct 2024 — Nov 2024
+                  </p>
+                </div>
+              </div>
+              <div className="flex md:items-center justify-between gap-12 md:flex-row flex-col py-5">
+                <div className="md:text-5xl font-semibold tracking-tight  decoration-slate-300 text-slate-400 dark:text-slate-600">
+                  Front End Developer
+                </div>
+                <div>
+                  <p className="text-sm font-medium text-slate-400 dark:text-slate-500">
+                    Group One JL International
+                  </p>
+                  <p className="text-xs text-slate-300 dark:text-slate-600 mt-0.5">
+                    Mar 2023 — Aug 2024
+                  </p>
+                </div>
+              </div>
+              <div className="flex md:items-center justify-between gap-12 md:flex-row flex-col pt-5">
+                <div className="md:text-5xl font-semibold tracking-tight  decoration-slate-300 text-slate-400 dark:text-slate-600">
+                  I.T Support
+                </div>
+                <div>
+                  <p className="text-sm font-medium text-slate-400 dark:text-slate-500">
                     Mariveles Harbor Corporation
                   </p>
-                  <p className="text-xs text-right">
-                    {" "}
-                    March 2022 - September 2022
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center justify-between">
-                <div className=" text-5xl line-through decoration-slate-300 text-slate-400">
-                  Computer Technician
-                </div>
-                <div>
-                  <p className="text-sm text-right">Crizvi Resort</p>
-                  <p className="text-xs text-right">
-                    {" "}
-                    February 2020 - March 2022
+                  <p className="text-xs text-slate-300 dark:text-slate-600 mt-0.5">
+                    Mar 2022 — Sep 2022
                   </p>
                 </div>
               </div>

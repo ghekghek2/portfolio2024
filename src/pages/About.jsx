@@ -16,41 +16,45 @@ function About() {
         </div>
         <div>
           <h1 className="text-3xl font-semibold mb-2">Work Experience</h1>
-          <div className="timeline w-full flex flex-col  gap-24 relative pl-2">
-            <div className="line absolute h-full w-1  bg-slate-200 dark:bg-cyan-950 rounded-full"></div>
-            <div className="containerx left-container relative flex items-center ">
-              <div className="w-4 h-4 bg-slate-300 dark:bg-cyan-800 rounded-full -left-[6px] absolute "></div>
-              <div className="text-box ml-10">
-                Group One Jl International Inc <br />
-                <b>
-                  <span>Junior Front-End - Ui / Ux</span>
-                </b>
-                &nbsp;&nbsp;&nbsp;
-                <small>Full Time</small>&nbsp;&nbsp;&nbsp;
+          <div className="timeline w-full flex flex-col gap-8 relative pl-2">
+            <div className="line absolute h-full w-0.5 bg-slate-200 dark:bg-cyan-950 rounded-full left-0"></div>
+
+            <div className="relative flex items-start pl-8">
+              <div className="w-3 h-3 bg-cyan-500 dark:bg-cyan-400 rounded-full -left-[5px] absolute top-1.5 ring-4 ring-cyan-100 dark:ring-cyan-950"></div>
+              <div>
+                <p className="text-xs font-medium text-cyan-600 dark:text-cyan-400 tracking-wide uppercase mb-0.5">02/2025 — 06/2025</p>
+                <p className="font-semibold text-base leading-tight">HQZen</p>
+                <p className="text-sm text-slate-600 dark:text-slate-400">UX Engineer &middot; Full Time</p>
               </div>
             </div>
-            <div className="containerx right-container relative flex items-center gap-2">
-              <div className="w-4 h-4 bg-slate-300 dark:bg-cyan-800 rounded-full -left-[6px] absolute "></div>
-              <div className="text-box ml-10">
-                Mariveles Harbor Corporation <br />
-                <b>
-                  <span>I.T Support</span>
-                </b>
-                &nbsp;&nbsp;&nbsp;
-                <small>Full Time</small>
+
+            <div className="relative flex items-start pl-8">
+              <div className="w-3 h-3 bg-slate-300 dark:bg-cyan-800 rounded-full -left-[5px] absolute top-1.5"></div>
+              <div>
+                <p className="text-xs font-medium text-slate-400 dark:text-slate-500 tracking-wide uppercase mb-0.5">10/2024 — 11/2024</p>
+                <p className="font-semibold text-base leading-tight">Central One Bataan</p>
+                <p className="text-sm text-slate-600 dark:text-slate-400">Web Developer &middot; Full Time</p>
               </div>
             </div>
-            <div className="containerx left-container relative flex items-center gap-2">
-              <div className="w-4 h-4 bg-slate-300 dark:bg-cyan-800 rounded-full -left-[6px] absolute "></div>
-              <div className="text-box ml-10">
-                Crizvi Resort <br />
-                <b>
-                  <span>Computer Technician</span>
-                </b>
-                &nbsp;&nbsp;&nbsp;
-                <small>Part Time</small>
+
+            <div className="relative flex items-start pl-8">
+              <div className="w-3 h-3 bg-slate-300 dark:bg-cyan-800 rounded-full -left-[5px] absolute top-1.5"></div>
+              <div>
+                <p className="text-xs font-medium text-slate-400 dark:text-slate-500 tracking-wide uppercase mb-0.5">03/2023 — 08/2024</p>
+                <p className="font-semibold text-base leading-tight">Group One JL International</p>
+                <p className="text-sm text-slate-600 dark:text-slate-400">Front End Developer &middot; Full Time</p>
               </div>
             </div>
+
+            <div className="relative flex items-start pl-8">
+              <div className="w-3 h-3 bg-slate-300 dark:bg-cyan-800 rounded-full -left-[5px] absolute top-1.5"></div>
+              <div>
+                <p className="text-xs font-medium text-slate-400 dark:text-slate-500 tracking-wide uppercase mb-0.5">03/2022 — 09/2022</p>
+                <p className="font-semibold text-base leading-tight">Mariveles Harbor Corporation</p>
+                <p className="text-sm text-slate-600 dark:text-slate-400">I.T Support &middot; Full Time</p>
+              </div>
+            </div>
+
           </div>
         </div>
 
